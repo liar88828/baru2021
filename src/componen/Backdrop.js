@@ -1,4 +1,4 @@
-function Backdrop(){
-    return  <div className="Backdrop" />;
+function Backdrop(props){
+    return <div className="backdrop" onClick={props.onCancle} />;
 }
 export default Backdrop;
