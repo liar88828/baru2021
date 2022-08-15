@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 3rem;
+    background-color: antiquewhite;
+}
+
+h1,
+h2 {
+    color: rgb(38, 11, 11);
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    border: 1px solid green;
+    margin: 0 1rem;
+}
+
+.btn:hover {
+    background-color: white;
+    border-color: red;
+    color: black;
+}
+
+.btn--alt {
+    background-color: transparent;
+    color: orangered;
+}
+.btn--alt:hover{
+    background-color: yellow;
+}
+
+.card{
+    background-color: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    max-width:900px ;
+    border-radius: 5px;
+    border: 5px solid green;
+}
