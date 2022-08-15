@@ -1,6 +1,15 @@
 function App() {
-  return <div>hello !</div>; 
+  return (
+    <div>
+      <h1>My todo</h1>
+      <div>
+        <h2>TITLE</h2>
+        <div>
+          <button>Delete</button>
+        </div>
+      </div>
+    </div>
+  );
 }
-
 
 export default App;
