@@ -4,7 +4,9 @@ function App() {
   return (
     <div>
       <h1>My todo</h1>
-    <Todo />
+      <Todo text='learen react'/>
+      <Todo text='Master react'/>
+      <Todo text='Explore the full react course'/>
     </div>
   );
 }
