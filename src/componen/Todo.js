@@ -22,7 +22,7 @@ function closeModalHandler(){
           Delete
         </button>
       </div>
-      {modalIsOpen && <Modal />} 
+      {modalIsOpen && <Modal onCancle={closeModalHandler} onConfirm={closeModalHandler}/>} 
 
       {modalIsOpen && <Backdrop onCancle={closeModalHandler}/>}
     </div>
